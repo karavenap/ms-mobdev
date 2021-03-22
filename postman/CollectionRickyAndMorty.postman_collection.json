@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "b75ec5fe-492d-48f1-85ae-78164ecdf370",
+		"name": "CollectionRickyAndMorty",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Characters",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/rickyandmorty/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rickyandmorty",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
